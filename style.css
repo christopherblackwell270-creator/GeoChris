@@ -235,3 +235,11 @@ img.thumb.goby { object-fit: cover; }
 .channel { max-width: 46rem; }
 .channel .banner { display: block; width: 100%; height: auto; background: #0e191d; }
 .channel .btn { justify-self: start; margin-top: 0.3rem; }
+.channel-wrap { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 1.5rem; align-items: start; }
+.series { border-left: 2px solid var(--ochre); padding: 0.2rem 0 0.2rem 1.25rem; display: grid; gap: 0.7rem; }
+.series h3 { font-size: var(--step-1); font-weight: 700; }
+.series > p { color: var(--ink-soft); font-size: 0.98rem; }
+.series dl { margin: 0; display: grid; gap: 0.25rem; }
+.series dt { font-family: var(--f-mono); font-size: 0.82rem; color: var(--ochre); letter-spacing: 0.04em; margin-top: 0.6rem; }
+.series dd { margin: 0; color: var(--ink-soft); font-size: 0.98rem; }
+@media (max-width: 900px) { .channel-wrap { grid-template-columns: 1fr; } }
