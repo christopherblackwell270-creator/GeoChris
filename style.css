@@ -103,9 +103,6 @@ p { margin: 0; }
 .btn.line { color: var(--sea); background: transparent; }
 .btn:hover { filter: brightness(1.08); }
 
-.scalebar { display: flex; align-items: flex-end; gap: 0.6rem; font-family: var(--f-mono); font-size: 0.72rem; color: var(--ink-soft); margin-top: 1.5rem; }
-.scalebar .bar { display: grid; grid-template-columns: repeat(4, 28px); height: 6px; border: 1px solid var(--ink-soft); }
-.scalebar .bar span:nth-child(odd) { background: var(--ink-soft); }
 
 /* Sections as map layers */
 section.layer { padding-block: clamp(3.5rem, 8vw, 6rem); border-bottom: 1px solid var(--rule); }
