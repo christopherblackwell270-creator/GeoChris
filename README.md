@@ -11,8 +11,8 @@ and GitHub Pages hosts it for free.
 | `index.html` | All the words on the site: every section, project, job and conference. This is the file you'll edit most. |
 | `style.css` | Colors, fonts and layout. You rarely need to touch it. |
 | `main.js` | The moving parts: the contour map at the top, the dropdown menus and the email Copy button. Leave it alone. |
-| `images/` | Every photo and map picture on the site. |
-| `docs/` | The PDFs the site links to: your paper, poster, report and full-size maps. |
+| `images/` | Every photo and map picture on the site. Class map pictures are in `images/class/`. |
+| `docs/` | The PDFs the site links to: your paper, poster, report and full-size maps. Class map PDFs are in `docs/class/`. |
 | `resume.pdf` | Your resume. Both Resume buttons open this file. |
 
 **Tip:** Edit in [Visual Studio Code](https://code.visualstudio.com/)
@@ -31,7 +31,8 @@ Search the file (Ctrl+F or Cmd+F) for the id:
 | About (bio, degree, GPA, headshot) | `id="about"` |
 | Research | `id="research"` |
 | Capstone | `id="capstone"` |
-| Selected geospatial project | `id="projects"` |
+| Selected geospatial projects | `id="projects"` |
+| Class maps | `id="classmaps"` |
 | Passion projects | `id="passion"` |
 | Work experience | `id="fieldwork"` |
 | Skills | `id="skills"` |
@@ -59,7 +60,7 @@ between the tags. Leave anything inside `< >` alone.
 
 Keep photos under about 1 MB. Anything wider than 1600 pixels is more than the site needs.
 
-### Add a project (research, GIS or passion)
+### Add a project (research, GIS, class map or passion)
 Each project is a block that starts with `<article class="project">` and
 ends with `</article>`.
 1. Copy a whole block, from `<article` to `</article>`.

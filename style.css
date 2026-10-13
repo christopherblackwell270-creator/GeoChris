@@ -225,3 +225,8 @@ img.thumb.goby { object-fit: cover; }
 .top .dd-menu a:hover, .top .dd-menu a:focus-visible { background: var(--paper-2); color: var(--sea); }
 .dd.open .dd-menu { display: block; }
 @media (hover: hover) { .dd:hover .dd-menu, .dd:focus-within .dd-menu { display: block; } .dd::after { content: ""; position: absolute; left: 0; right: 0; top: 100%; height: 0.7rem; } }
+
+/* Class maps: whole-layout thumbnails that open the full PDF */
+.projects.maps .thumb { aspect-ratio: 4 / 3; object-fit: cover; }
+.project > a:first-child { display: block; }
+.content > a.more { font-family: var(--f-mono); font-size: 0.85rem; justify-self: start; }
