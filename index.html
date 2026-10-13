@@ -68,6 +68,9 @@
             <p>Christopher Blackwell is an undergraduate student at California State University Channel Islands, where he studies Environmental Science and Resource Management with an emphasis in Earth Systems while pursuing an Environmental Technology Certificate. He is passionate about geographic information systems (GIS), remote sensing, and geospatial science, particularly using these technologies to support conservation and informed environmental decision-making.</p>
             <p>Christopher has experience in geospatial analysis, satellite and aerial imagery interpretation, spatial data management, cartographic design, and coding for statistical analysis. Through his academic and professional work, he has explored endangered species protection before and after fires, suitability analysis of public land, amusement park heat maps, and public access to theme parks.</p>
             <p>As he continues developing his technical and professional expertise, Christopher hopes to build a career using geospatial science to support practical, data-driven conservation and environmental decision-making. When he is not working with maps or exploring the geospatial world, he enjoys visiting Disneyland and Universal Studios, riding roller coasters, watching movies, and line dancing. Christopher aims to have a career in GIS, aiming to make complex data accessible to the public and bringing environmental change through the geospatial world.</p>
+          </div>
+          <div class="about-side">
+            <img class="headshot" src="images/headshot.jpg" alt="Christopher Blackwell">
             <dl class="facts">
               <div><dt>Degree</dt><dd>B.S. Environmental Science &amp; Resource Management, CSU Channel Islands</dd></div>
               <div><dt>Graduating</dt><dd>May 2027 (expected)</dd></div>
@@ -77,7 +80,6 @@
               <div><dt>Based in</dt><dd>Simi Valley, CA</dd></div>
             </dl>
           </div>
-          <img class="headshot" src="images/headshot.jpg" alt="Christopher Blackwell">
         </div>
       </div>
     </div>
@@ -136,12 +138,14 @@
           <div class="cap-text">
             <p class="cap-status">In progress · Follow-up to the Topanga Lagoon research</p>
             <p>During field surveys, our team observed northern tidewater gobies upstream of the boundary of the designated critical habitat unit. If confirmed, the current designation may not capture the full extent of habitat the species uses. My capstone is a GIS study testing whether occupied reaches extend beyond current protection zones, and identifying the physical features that limit upstream access.</p>
-            <ol class="cap-steps">
-              <li><div><strong>Compile occurrence data.</strong> Assemble permitted goby survey records with precise coordinates, dates, methods, effort, and life stages, and compare them against the official USFWS critical habitat geometry after checking coordinate systems and positional accuracy.</div></li>
-              <li><div><strong>Model stream gradient.</strong> Use LiDAR-derived elevation data to build a conditioned stream network and calculate reach-scale channel slope, since the federal designation identifies steep gradient as one possible upstream limit.</div></li>
-              <li><div><strong>Field-verify limiting features.</strong> Survey candidate upper limits for passage barriers such as culverts and drops, dry reaches, flow permanence, substrate, and depth, repeated across seasons.</div></li>
-              <li><div><strong>Map and report.</strong> Produce separate layers for observed occupancy, potentially suitable habitat, and designated critical habitat, with sensitivity analyses for elevation and slope.</div></li>
-            </ol>
+          </div>
+          <ol class="cap-steps">
+            <li><div><strong>Compile occurrence data.</strong> Assemble permitted goby survey records with precise coordinates, dates, methods, effort, and life stages, and compare them against the official USFWS critical habitat geometry after checking coordinate systems and positional accuracy.</div></li>
+            <li><div><strong>Model stream gradient.</strong> Use LiDAR-derived elevation data to build a conditioned stream network and calculate reach-scale channel slope, since the federal designation identifies steep gradient as one possible upstream limit.</div></li>
+            <li><div><strong>Field-verify limiting features.</strong> Survey candidate upper limits for passage barriers such as culverts and drops, dry reaches, flow permanence, substrate, and depth, repeated across seasons.</div></li>
+            <li><div><strong>Map and report.</strong> Produce separate layers for observed occupancy, potentially suitable habitat, and designated critical habitat, with sensitivity analyses for elevation and slope.</div></li>
+          </ol>
+          <div class="cap-foot">
             <p>The maps and technical report will be submitted to the U.S. Fish &amp; Wildlife Service for consideration and prepared for peer-reviewed publication. Only USFWS can revise a critical habitat designation; this study is meant to provide the spatial evidence for that review.</p>
             <ul class="chips"><li>LiDAR</li><li>Stream network modeling</li><li>Critical habitat</li><li>Field verification</li></ul>
           </div>
@@ -203,7 +207,7 @@
               </div>
             </article>
           </div>
-          <a class="more" href="#classmaps">See all 13 class maps</a>
+          <a class="more" href="#classmaps" data-expand="classmap-grid">See all 13 class maps</a>
         </div>
       </div>
     </div>
@@ -219,34 +223,7 @@
         <div></div>
         <div class="content" style="display:grid; gap:1.5rem;">
           <p style="max-width:62ch;">Maps from my GIS courses at CSU Channel Islands, built in ArcGIS Pro. Many use the Mastering ArcGIS Pro tutorial data from the course. Click any map to open the full PDF.</p>
-          <div class="projects maps">
-            <article class="project">
-              <a href="docs/class/red-legged-frog-habitat.pdf" target="_blank" rel="noopener"><img class="thumb" src="images/class/red-legged-frog-habitat.jpg" alt="Map of the Ventura River watershed with suitable California red-legged frog habitat along streams in dark green" loading="lazy"></a>
-              <div class="body">
-                <span class="meta">Habitat suitability · Dec 2025</span>
-                <h3>California red-legged frog restoration habitat</h3>
-                <p>Where could the threatened California red-legged frog be restored in the Ventura River watershed? I layered streams, roads, city limits, open space and wetland vegetation to find land near water, away from roads and outside cities, shown in dark green.</p>
-                <ul class="chips"><li>ArcGIS Pro</li><li>Buffers &amp; overlay</li><li>Suitability analysis</li></ul>
-              </div>
-            </article>
-            <article class="project">
-              <a href="docs/class/ventura-flood-risk-facilities.pdf" target="_blank" rel="noopener"><img class="thumb" src="images/class/ventura-flood-risk-facilities.jpg" alt="Map of Ventura County with hospital and school markers in flood risk areas over population density" loading="lazy"></a>
-              <div class="body">
-                <span class="meta">Hazard analysis · Nov 2025</span>
-                <h3>Ventura County critical facilities in flood risk areas</h3>
-                <p>Which hospitals and schools in Ventura County sit in high-risk flood zones? I overlaid facility locations on the county's A and AE flood zones and census data, and found 3 hospitals and 63 schools at risk, with a chart of the schools by level.</p>
-                <ul class="chips"><li>ArcGIS Pro</li><li>Select by location</li><li>Census blocks</li></ul>
-              </div>
-            </article>
-            <article class="project">
-              <a href="docs/class/arches-national-park.pdf" target="_blank" rel="noopener"><img class="thumb" src="images/class/arches-national-park.jpg" alt="Map of Arches National Park with arches sized by width along roads and trails, and a 3D view of soils and elevation" loading="lazy"></a>
-              <div class="body">
-                <span class="meta">3D terrain · Oct 2025</span>
-                <h3>Arches National Park: arches, soils and elevation</h3>
-                <p>How do the park's arches relate to its soils, elevation, roads and trails? Each arch is sized by its width over soil and elevation layers from ArcGIS Online, and a 3D view shows the terrain they sit on.</p>
-                <ul class="chips"><li>ArcGIS Pro</li><li>3D scene</li><li>ArcGIS Online data</li></ul>
-              </div>
-            </article>
+          <div class="projects maps" id="classmap-grid">
             <article class="project">
               <a href="docs/class/austin-wells.pdf" target="_blank" rel="noopener"><img class="thumb" src="images/class/austin-wells.jpg" alt="Map of Texas with two circular insets of Austin, one shaded red by wells per 1,000 people and one shaded blue by well depth" loading="lazy"></a>
               <div class="body">
@@ -337,7 +314,35 @@
                 <ul class="chips"><li>ArcGIS Pro</li><li>Point symbology</li><li>Map layout</li></ul>
               </div>
             </article>
+            <article class="project">
+              <a href="docs/class/red-legged-frog-habitat.pdf" target="_blank" rel="noopener"><img class="thumb" src="images/class/red-legged-frog-habitat.jpg" alt="Map of the Ventura River watershed with suitable California red-legged frog habitat along streams in dark green" loading="lazy"></a>
+              <div class="body">
+                <span class="meta">Habitat suitability · Dec 2025</span>
+                <h3>California red-legged frog restoration habitat</h3>
+                <p>Where could the threatened California red-legged frog be restored in the Ventura River watershed? I layered streams, roads, city limits, open space and wetland vegetation to find land near water, away from roads and outside cities, shown in dark green.</p>
+                <ul class="chips"><li>ArcGIS Pro</li><li>Buffers &amp; overlay</li><li>Suitability analysis</li></ul>
+              </div>
+            </article>
+            <article class="project">
+              <a href="docs/class/ventura-flood-risk-facilities.pdf" target="_blank" rel="noopener"><img class="thumb" src="images/class/ventura-flood-risk-facilities.jpg" alt="Map of Ventura County with hospital and school markers in flood risk areas over population density" loading="lazy"></a>
+              <div class="body">
+                <span class="meta">Hazard analysis · Nov 2025</span>
+                <h3>Ventura County critical facilities in flood risk areas</h3>
+                <p>Which hospitals and schools in Ventura County sit in high-risk flood zones? I overlaid facility locations on the county's A and AE flood zones and census data, and found 3 hospitals and 63 schools at risk, with a chart of the schools by level.</p>
+                <ul class="chips"><li>ArcGIS Pro</li><li>Select by location</li><li>Census blocks</li></ul>
+              </div>
+            </article>
+            <article class="project">
+              <a href="docs/class/arches-national-park.pdf" target="_blank" rel="noopener"><img class="thumb" src="images/class/arches-national-park.jpg" alt="Map of Arches National Park with arches sized by width along roads and trails, and a 3D view of soils and elevation" loading="lazy"></a>
+              <div class="body">
+                <span class="meta">3D terrain · Oct 2025</span>
+                <h3>Arches National Park: arches, soils and elevation</h3>
+                <p>How do the park's arches relate to its soils, elevation, roads and trails? Each arch is sized by its width over soil and elevation layers from ArcGIS Online, and a 3D view shows the terrain they sit on.</p>
+                <ul class="chips"><li>ArcGIS Pro</li><li>3D scene</li><li>ArcGIS Online data</li></ul>
+              </div>
+            </article>
           </div>
+          <button type="button" class="btn line show-all" aria-expanded="true" aria-controls="classmap-grid" hidden>Show all 13 maps</button>
         </div>
       </div>
     </div>
@@ -554,7 +559,7 @@
         <div></div>
         <div class="content" style="display:grid; gap:1.5rem;">
           <p style="max-width:58ch;">Where I'll be next. If you're attending too, I'd be glad to connect.</p>
-          <ol class="timeline">
+          <ol class="timeline cols">
             <li>
               <span class="when">Oct 22–24, 2026</span>
               <div>

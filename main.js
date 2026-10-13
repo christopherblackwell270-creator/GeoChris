@@ -336,6 +336,28 @@
   document.addEventListener("click", function () { closeAll(); });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeAll(); });
 
+  // Class maps: show the first row, with a button to reveal the rest.
+  var mapGrid = document.getElementById("classmap-grid");
+  var showAll = document.querySelector(".show-all");
+  if (mapGrid && showAll) {
+    var total = mapGrid.children.length;
+    var setMaps = function (open) {
+      mapGrid.classList.toggle("collapsed", !open);
+      showAll.setAttribute("aria-expanded", open ? "true" : "false");
+      showAll.textContent = open ? "Show fewer maps" : "Show all " + total + " maps";
+    };
+    setMaps(false);
+    showAll.hidden = false;
+    showAll.addEventListener("click", function () {
+      var open = mapGrid.classList.contains("collapsed");
+      setMaps(open);
+      if (!open) document.getElementById("classmaps").scrollIntoView();
+    });
+    document.querySelectorAll('[data-expand="classmap-grid"]').forEach(function (a) {
+      a.addEventListener("click", function () { setMaps(true); });
+    });
+  }
+
   var yr = document.getElementById("year");
   if (yr) yr.textContent = new Date().getFullYear();
 

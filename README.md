@@ -69,6 +69,8 @@ ends with `</article>`.
 3. Change the image, the line with `class="meta"` (type and date), the title in `<h3>`, the description, the tags in `<li>` and the PDF link.
 4. Put the map image in `images/` and the PDF in `docs/`.
 
+In Class maps, only the first three cards show until a visitor clicks **Show all**, so put your favorite maps at the top of that list.
+
 ### Add or update a conference
 In the `id="conferences"` section, each event is one `<li>` block. Copy one
 and change the date, name, link, location and description. Delete events
