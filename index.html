@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Christopher Blackwell · GIS &amp; Conservation</title>
+<meta name="description" content="Christopher Blackwell, ESRM student at CSU Channel Islands: GIS, remote sensing, and conservation portfolio.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top">Christopher Blackwell</a>
+    <nav aria-label="Sections">
+      <div class="dd">
+        <button type="button" class="dd-btn" id="dd-about" aria-expanded="false" aria-controls="dd-about-menu">About me <span aria-hidden="true">▾</span></button>
+        <div class="dd-menu" id="dd-about-menu">
+          <a href="#about">Professional</a>
+          <a href="#skills">Skills</a>
+          <a href="#resume">Resume</a>
+          <a href="#offmap">Off the map</a>
+        </div>
+      </div>
+      <div class="dd">
+        <button type="button" class="dd-btn" id="dd-exp" aria-expanded="false" aria-controls="dd-exp-menu">Experience <span aria-hidden="true">▾</span></button>
+        <div class="dd-menu" id="dd-exp-menu">
+          <a href="#research">Research</a>
+          <a href="#capstone">Capstone</a>
+          <a href="#fieldwork">Work experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">GIS projects</a>
+          <a href="#passion">Passion projects</a>
+        </div>
+      </div>
+      <a href="#conferences">Conferences</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-label="Introduction">
+    <canvas id="hero-map" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <p class="coords">34.1617° N · 119.0434° W · CSU Channel Islands</p>
+      <h1>Mapping landscapes worth restoring.</h1>
+      <p class="lede">GIS specialist in geospatial analysis, remote sensing, and field data collection, studying Environmental Science &amp; Resource Management at CSU Channel Islands.</p>
+      <div class="ctas">
+        <a class="btn solid" href="#projects">See GIS projects</a>
+        <a class="btn line" href="resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+      </div>
+      <div class="scalebar" aria-hidden="true">
+        <div class="bar"><span></span><span></span><span></span><span></span></div>
+        <span>0 — 1 — 2 km</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="layer" id="about">
+    <div class="wrap">
+      <div class="layer-head">
+        <span class="layer-tag">Layer 01 · About</span>
+        <h2>About</h2>
+      </div>
+      <div class="layer-body">
+        <div></div>
+        <div class="content about">
+          <div class="text">
+            <p>Christopher Blackwell is an undergraduate student at California State University Channel Islands, where he studies Environmental Science and Resource Management with an emphasis in Earth Systems while pursuing an Environmental Technology Certificate. He is passionate about geographic information systems (GIS), remote sensing, and geospatial science, particularly using these technologies to support conservation and informed environmental decision-making.</p>
+            <p>Christopher has experience in geospatial analysis, satellite and aerial imagery interpretation, spatial data management, cartographic design, and coding for statistical analysis. Through his academic and professional work, he has explored endangered species protection before and after fires, suitability analysis of public land, amusement park heat maps, and public access to theme parks.</p>
+            <p>As he continues developing his technical and professional expertise, Christopher hopes to build a career using geospatial science to support practical, data-driven conservation and environmental decision-making. When he is not working with maps or exploring the geospatial world, he enjoys visiting Disneyland and Universal Studios, riding roller coasters, watching movies, and line dancing. Christopher aims to have a career in GIS, aiming to make complex data accessible to the public and bringing environmental change through the geospatial world.</p>
+            <dl class="facts">
+              <div><dt>Degree</dt><dd>B.S. Environmental Science &amp; Resource Management, CSU Channel Islands</dd></div>
+              <div><dt>Graduating</dt><dd>May 2027 (expected)</dd></div>
+              <div><dt>GPA</dt><dd>3.69</dd></div>
+              <div><dt>Emphasis</dt><dd>Earth Systems</dd></div>
+              <div><dt>Certificate</dt><dd>Environmental Technology Certificate (2026)</dd></div>
+              <div><dt>Based in</dt><dd>Simi Valley, CA</dd></div>
+            </dl>
+          </div>
+          <img class="headshot" src="images/headshot.jpg" alt="Christopher Blackwell">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="layer" id="research">
+    <div class="wrap">
+      <div class="layer-head">
+        <span class="layer-tag">Layer 02 · Research</span>
+        <h2>Research</h2>
+      </div>
+      <div class="layer-body">
+        <div></div>
+        <div class="content">
+          <div class="projects research">
+            <article class="project">
+              <img class="thumb goby" src="images/goby-viewing-tank.jpg" alt="An adult northern tidewater goby in a clear viewing tank during field sampling at Topanga Lagoon">
+              <div class="body">
+                <span class="meta">Research paper · Oct 2026 · Spies Lab, CSUCI</span>
+                <h3>Benthic macroinvertebrate community change following the 2025 Palisades Fire in Topanga Lagoon</h3>
+                <p>Compared benthic macroinvertebrate assemblages before and after the January 2025 Palisades Fire in Topanga Lagoon, critical habitat for the federally endangered northern tidewater goby. Taxon richness fell from 20 taxa before the fire to as few as 2, and Shannon diversity dropped from 1.74 to 0.34, showing severe simplification of the community and incomplete recovery more than a year later. The paper also outlines a GIS-based follow-up study on goby occurrences beyond the mapped critical habitat unit.</p>
+                <p class="authors">Chris Blackwell, Devan Page, Tatyana Ramirez, Jet Thompson, and Brenton Spies</p>
+                <ul class="chips"><li>Bioassessment</li><li>Diversity indices</li><li>Endangered species</li></ul>
+                <a class="more" href="docs/topanga-lagoon-bmi-paper.pdf" target="_blank" rel="noopener">Read the paper (PDF)</a>
+              </div>
+            </article>
+            <article class="project">
+              <img class="thumb" src="images/surf-poster.jpg" alt="Research poster: Post-Fire Recovery of Topanga Canyon Lagoon">
+              <div class="body">
+                <span class="meta">SURF research poster · Spies Lab, CSUCI</span>
+                <h3>Post-fire recovery of Topanga Canyon Lagoon: monitoring benthic macroinvertebrates and endangered tidewater goby populations</h3>
+                <p>Summer Undergraduate Research Fellowship poster with the Resource Conservation District of the Santa Monica Mountains. Ostracods were the first taxa to recolonize after the fire and likely sustained goby prey availability, while pollution-sensitive Hydropsychidae have not returned. The macroinvertebrate trend closely mirrors the goby population, with a sharp post-fire drop and a recovery spike beginning in fall 2025.</p>
+                <ul class="chips"><li>Field sampling</li><li>SWAMP protocols</li><li>Data visualization</li></ul>
+                <a class="more" href="docs/topanga-lagoon-surf-poster.pdf" target="_blank" rel="noopener">View the poster (PDF)</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="layer" id="capstone">
+    <div class="wrap">
+      <div class="layer-head">
+        <span class="layer-tag">Layer 03 · Capstone</span>
+        <h2>Capstone: mapping occupied tidewater goby habitat</h2>
+      </div>
+      <div class="layer-body">
+        <div></div>
+        <div class="content capstone">
+          <figure class="cap-photo">
+            <img src="images/topanga-seine-survey.jpg" alt="Researchers pulling a seine net through Topanga Lagoon to survey tidewater gobies">
+            <figcaption>Seine survey in Topanga Lagoon with the Resource Conservation District of the Santa Monica Mountains.</figcaption>
+          </figure>
+          <div class="cap-text">
+            <p class="cap-status">In progress · Follow-up to the Topanga Lagoon research</p>
+            <p>During field surveys, our team observed northern tidewater gobies upstream of the boundary of the designated critical habitat unit. If confirmed, the current designation may not capture the full extent of habitat the species uses. My capstone is a GIS study testing whether occupied reaches extend beyond current protection zones, and identifying the physical features that limit upstream access.</p>
+            <ol class="cap-steps">
+              <li><div><strong>Compile occurrence data.</strong> Assemble permitted goby survey records with precise coordinates, dates, methods, effort, and life stages, and compare them against the official USFWS critical habitat geometry after checking coordinate systems and positional accuracy.</div></li>
+              <li><div><strong>Model stream gradient.</strong> Use LiDAR-derived elevation data to build a conditioned stream network and calculate reach-scale channel slope, since the federal designation identifies steep gradient as one possible upstream limit.</div></li>
+              <li><div><strong>Field-verify limiting features.</strong> Survey candidate upper limits for passage barriers such as culverts and drops, dry reaches, flow permanence, substrate, and depth, repeated across seasons.</div></li>
+              <li><div><strong>Map and report.</strong> Produce separate layers for observed occupancy, potentially suitable habitat, and designated critical habitat, with sensitivity analyses for elevation and slope.</div></li>
+            </ol>
+            <p>The maps and technical report will be submitted to the U.S. Fish &amp; Wildlife Service for consideration and prepared for peer-reviewed publication. Only USFWS can revise a critical habitat designation; this study is meant to provide the spatial evidence for that review.</p>
+            <ul class="chips"><li>LiDAR</li><li>Stream network modeling</li><li>Critical habitat</li><li>Field verification</li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="layer" id="projects">
+    <div class="wrap">
+      <div class="layer-head">
+        <span class="layer-tag">Layer 04 · Analysis</span>
+        <h2>Selected geospatial project</h2>
+      </div>
+      <div class="layer-body">
+        <div></div>
+        <div class="content" style="display:grid; gap:1.5rem;">
+                    <div class="projects feature">
+            <article class="project">
+              <img class="thumb" src="images/vlt-recommendations.jpg" alt="Map of Ventura County new land ownership recommendations showing five candidate sites near existing Ventura Land Trust properties, rivers, and wetlands">
+              <div class="body">
+                <span class="meta">ESRM 428 · Aug 2026 · Client project</span>
+                <h3>Ventura Land Trust site prioritization</h3>
+                <p>Built a parcel-based prioritization framework for Ventura Land Trust using spatial relationships among legal parcels, existing VLT properties, rivers and streams, vegetation, wetlands, and protected lands. Narrowed the field to five candidate sites and recommended Site 1 for due-diligence review based on its connectivity to existing VLT land.</p>
+                <ul class="chips"><li>ArcGIS Pro</li><li>StoryMaps</li><li>Dashboards</li><li>Suitability scoring</li></ul>
+                <a class="more" href="docs/VLT-technical-report.pdf" target="_blank" rel="noopener">Read the technical report (PDF)</a>
+              </div>
+            </article>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="layer" id="passion">
+    <div class="wrap">
+      <div class="layer-head">
+        <span class="layer-tag">Layer 05 · Exploration</span>
+        <h2>Passion projects</h2>
+      </div>
+      <div class="layer-body">
+        <div></div>
+        <div class="content" style="display:grid; gap:1.5rem;">
+          <p style="max-width:62ch;">Maps I make on my own time to try new tools, push my design skills, and map places beyond the usual study area.</p>
+          <div class="projects">
+            <article class="project">
+              <img class="thumb" src="images/campus-contours.jpg" alt="Hillshaded elevation map of the CSU Channel Islands campus with stacked contour lines on the surrounding hills">
+              <div class="body">
+                <span class="meta">Cartography · Sep 2026</span>
+                <h3>Contours of the Campus</h3>
+                <p>Mapped elevation at CSU Channel Islands with custom stacked contours, layering offset contour lines over a hillshade to emphasize terrain, with a detail inset of Satwiwa.</p>
+                <ul class="chips"><li>ArcGIS Pro</li><li>DEM &amp; hillshade</li><li>Cartography</li></ul>
+                <a class="more" href="docs/campus-contours.pdf" target="_blank" rel="noopener">View the full map (PDF)</a>
+              </div>
+            </article>
+            <article class="project">
+              <img class="thumb" src="images/footprints-on-the-moon.jpg" alt="Map of the Moon's near side with glowing markers at the six Apollo landing sites and a mission timeline">
+              <div class="body">
+                <span class="meta">Cartography · 2026</span>
+                <h3>Footprints on the Moon</h3>
+                <p>Explored GeoLibre, a GIS platform new to me, and used satellite imagery of the Moon with NASA LRO/LROC data and Apollo mission archives to map the six crewed Apollo lunar landing sites from 1969 to 1972. I designed the final layout in Adobe Illustrator rather than ArcGIS Pro for more flexibility with typography, visual hierarchy, the timeline, and symbology. A reminder that GIS is not limited to mapping Earth.</p>
+                <ul class="chips"><li>GeoLibre</li><li>Adobe Illustrator</li><li>NASA LRO/LROC</li><li>Map design</li></ul>
+                <a class="more" href="docs/footprints-on-the-moon.pdf" target="_blank" rel="noopener">View the full map (PDF)</a>
+              </div>
+            </article>
+            <article class="project">
+              <img class="thumb" src="images/hhn-route.jpg" alt="Halloween Horror Nights ideal route map over aerial imagery of Universal Studios Hollywood with nine numbered haunted houses">
+              <div class="body">
+                <span class="meta">Route planning · Survey123</span>
+                <h3>Halloween Horror Nights ideal route</h3>
+                <p>Planned the best order to visit nine haunted houses at Universal Studios Hollywood using visitor data from a student-run ArcGIS Survey123 survey. The route is normalized by average wait times and weighted by respondent rankings, scheduling higher-priority houses for when the park is expected to be less busy.</p>
+                <ul class="chips"><li>Survey123</li><li>Route optimization</li><li>Map design</li></ul>
+                <a class="more" href="docs/hhn-ideal-route.pdf" target="_blank" rel="noopener">View the full map (PDF)</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="layer" id="fieldwork">
+    <div class="wrap">
+      <div class="layer-head">
+        <span class="layer-tag">Layer 06 · Field</span>
+        <h2>Research, teaching &amp; field experience</h2>
+      </div>
+      <div class="layer-body">
+        <div></div>
+        <div class="content">
+          <ol class="timeline">
+            <li>
+              <span class="when">June 2026 – Present</span>
+              <div>
+                <h3>Summer SURF Fellow, Geospatial Analysis &amp; Field Research</h3>
+                <p class="org">Spies Lab, California State University Channel Islands</p>
+                <ul>
+                  <li>Analyze 2,500+ hectares affected by the 2025 Palisades Fire in ArcGIS Pro to evaluate ecosystem recovery and habitat conditions for endangered tidewater goby populations.</li>
+                  <li>Integrate satellite imagery, GPS field surveys, and habitat layers; perform raster/vector analysis, georeferencing, and spatial QA/QC across multi-source datasets.</li>
+                  <li>Collaborate with the Resource Conservation District of the Santa Monica Mountains and U.S. Fish &amp; Wildlife Service to translate findings into conservation recommendations.</li>
+                  <li>Collected and identified benthic macroinvertebrate samples from Topanga Lagoon following SWAMP protocols to track post-fire community recovery and prey availability for the northern tidewater goby.</li>
+                  <li>Co-authored a research paper and SURF poster on the findings (see <a href="#research">Research</a>).</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <span class="when">Aug 2024 – Present</span>
+              <div>
+                <h3>GIS Tutor</h3>
+                <p class="org">California State University Channel Islands</p>
+                <ul>
+                  <li>Lead weekly GIS labs covering spatial analysis, ArcGIS Pro workflows, cartography, and geospatial data management.</li>
+                  <li>Mentor students in geoprocessing methods, data organization, troubleshooting, and communication of spatial results.</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <span class="when">Aug 2024 – Present</span>
+              <div>
+                <h3>Student GIS Consultant</h3>
+                <p class="org">California State University Channel Islands</p>
+                <ul>
+                  <li>Support client-based projects through GIS troubleshooting, spatial visualization, map production, and workflow documentation.</li>
+                  <li>Translate client needs into reproducible geospatial analyses, technical documentation, and decision-ready cartographic products.</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <span class="when">Aug 2022 – Aug 2024</span>
+              <div>
+                <h3>Environmental Education Instructor</h3>
+                <p class="org">Scouts of America · Emerald Bay, Catalina Island</p>
+                <ul>
+                  <li>Conducted field data collection, GPS navigation, and ecological surveys in marine and coastal ecosystems.</li>
+                  <li>Delivered hands-on environmental science instruction, including tide pool exploration, snorkeling, and ecological hikes, connecting field observations with ecosystem monitoring and spatial thinking.</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="layer" id="skills">
+    <div class="wrap">
+      <div class="layer-head">
+        <span class="layer-tag">Layer 07 · Legend</span>
+        <h2>Technical skills</h2>
+      </div>
+      <div class="layer-body">
+        <div></div>
+        <div class="content">
+          <div class="legend">
+            <div>
+              <h3><span class="swatch sw-vector"></span>GIS platforms &amp; analysis</h3>
+              <ul><li>ArcGIS Pro, ArcMap, ArcGIS Online</li><li>QGIS</li><li>Raster &amp; vector analysis</li><li>Georeferencing</li><li>Spatial interpolation</li><li>Network analysis</li></ul>
+            </div>
+            <div>
+              <h3><span class="swatch sw-raster"></span>Remote sensing</h3>
+              <ul><li>Satellite imagery</li><li>Multispectral analysis</li><li>Land-cover classification</li><li>Change detection</li><li>Thermal imagery</li></ul>
+            </div>
+            <div>
+              <h3><span class="swatch sw-field"></span>Research &amp; field data</h3>
+              <ul><li>GPS field surveys</li><li>Ecological surveys</li><li>Habitat data &amp; field protocols</li><li>Spatial QA/QC</li><li>Multi-source data integration</li><li>Workflow documentation</li></ul>
+            </div>
+            <div>
+              <h3><span class="swatch sw-code"></span>Data &amp; design</h3>
+              <ul><li>R</li><li>Statistical analysis</li><li>Data visualization</li><li>Cartography</li><li>Microsoft Excel</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="layer" id="resume">
+    <div class="wrap">
+      <div class="layer-head">
+        <span class="layer-tag">Layer 08 · Record</span>
+        <h2>Resume</h2>
+      </div>
+      <div class="layer-body">
+        <div></div>
+        <div class="content">
+          <div class="resume">
+            <p>Education, geospatial experience, selected projects, and technical skills on one page.</p>
+            <a class="btn solid" href="resume.pdf" target="_blank" rel="noopener">Open resume (PDF)</a>
+          </div>
+          <div class="certs">
+            <p><strong>Relevant coursework:</strong> GIS, Intermediate GIS, Remote Sensing, Environmental Statistics, Data Visualization, R Programming, Geomorphology &amp; Hydrology</p>
+            <p><strong>Professional development:</strong> Esri User Conference, attending technical sessions on GIS workflows, cartography and map imagery, geoprocessing, and emerging spatial-analysis practices.</p>
+            <p><strong>Leadership &amp; affiliations:</strong> Elected Committee Member, Ventura County Air Pollution Control District · Esri Young Professionals Network · American Association of Geographers · Student Organizing Committee Board Member · Eagle Scout</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="layer" id="conferences">
+    <div class="wrap">
+      <div class="layer-head">
+        <span class="layer-tag">Layer 09 · Itinerary</span>
+        <h2>Upcoming conferences</h2>
+      </div>
+      <div class="layer-body">
+        <div></div>
+        <div class="content" style="display:grid; gap:1.5rem;">
+          <p style="max-width:58ch;">Where I'll be next. If you're attending too, I'd be glad to connect.</p>
+          <ol class="timeline">
+            <li>
+              <span class="when">Oct 22–24, 2026</span>
+              <div>
+                <h3><a href="https://apcg.wildapricot.org/event-6537217" target="_blank" rel="noopener">Association of Pacific Coast Geographers (APCG) Annual Meeting</a></h3>
+                <p class="org">Hilo, Hawai‘i · University of Hawai‘i at Hilo &amp; Hawai‘i Community College</p>
+                <ul>
+                  <li>Regional meeting of geographers from the western U.S. and Pacific, with field trips on the first day and paper sessions after.</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <span class="when">Nov 12–15, 2026</span>
+              <div>
+                <h3><a href="https://www.wsn-online.org/annual-meeting/" target="_blank" rel="noopener">Western Society of Naturalists (WSN) 107th Annual Meeting</a></h3>
+                <p class="org">Sacramento, CA · DoubleTree by Hilton</p>
+                <ul>
+                  <li>Long-running gathering for marine and coastal ecologists, with a strong focus on student research.</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <span class="when">November 2026</span>
+              <div>
+                <h3><a href="https://www.csun.edu/social-behavioral-sciences/geography-environmental-studies" target="_blank" rel="noopener">CSUN GIS Day</a></h3>
+                <p class="org">Northridge, CA · California State University, Northridge</p>
+                <ul>
+                  <li>Campus celebration of GIS Day, showcasing geospatial technology, mapping, and drones. GIS Day 2026 falls on Nov 18.</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <span class="when">November 2026</span>
+              <div>
+                <h3><a href="https://cirgis.org/" target="_blank" rel="noopener">Ventura County GIS Day</a></h3>
+                <p class="org">Ventura County, CA</p>
+                <ul>
+                  <li>Local GIS Day event bringing together Ventura County's GIS community to share maps and projects. GIS Day 2026 falls on Nov 18.</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <span class="when">Nov 21, 2026</span>
+              <div>
+                <h3><a href="https://research.sdsu.edu/sccur-2026" target="_blank" rel="noopener">Southern California Conference for Undergraduate Research (SCCUR)</a></h3>
+                <p class="org">San Diego, CA · San Diego State University</p>
+                <ul>
+                  <li>One-day conference where undergraduates from across Southern California present research in every discipline.</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <span class="when">Feb 8–12, 2027</span>
+              <div>
+                <h3><a href="https://www.aag.org/events/aag2027/" target="_blank" rel="noopener">American Association of Geographers (AAG) Annual Meeting</a></h3>
+                <p class="org">New York, NY</p>
+                <ul>
+                  <li>The largest annual geography conference, themed “Grounded Relations and Desirable Futures” for 2027.</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="layer" id="offmap">
+    <div class="wrap">
+      <div class="layer-head">
+        <span class="layer-tag">Layer 10 · Personal</span>
+        <h2>Off the map</h2>
+      </div>
+      <div class="layer-body">
+        <div></div>
+        <div class="content" style="display:grid; gap:1.5rem;">
+          <p style="max-width:58ch;">A few waypoints from my life outside of GIS.</p>
+          <div class="waypoints">
+            <article class="waypoint">
+              <span class="pin" aria-hidden="true"><span>A</span></span>
+              <div>
+                <h3>Theme parks, always</h3>
+                <p class="wp-coord">33.8121° N · 117.9190° W</p>
+                <p>I really love theme parks: Disney and Disneyland first, plus Universal Studios and Six Flags. Roller coasters are a must, and yes, I've mapped a few parks too.</p>
+              </div>
+            </article>
+            <article class="waypoint">
+              <span class="pin" aria-hidden="true"><span>B</span></span>
+              <div>
+                <h3>Out on the trail</h3>
+                <p class="wp-coord">Trailheads · elevation varies</p>
+                <p>I love the environment, and the best way to see it is on foot. A good hike is how I recharge, and it's usually where my next map idea starts.</p>
+              </div>
+            </article>
+            <article class="waypoint">
+              <span class="pin" aria-hidden="true"><span>C</span></span>
+              <div>
+                <h3>Coast kid</h3>
+                <p class="wp-coord">Sea level · 0 m</p>
+                <p>I grew up close to the coast, and the beach is still my favorite place to be. It's a big part of why coastal habitats matter so much to me.</p>
+              </div>
+            </article>
+            <article class="waypoint">
+              <span class="pin" aria-hidden="true"><span>D</span></span>
+              <div>
+                <h3>Game day</h3>
+                <p class="wp-coord">34.0739° N · 118.2400° W</p>
+                <p>You'll find me watching the Dodgers and the 49ers, whether that's at the stadium or on the couch.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="layer" id="contact">
+    <div class="wrap">
+      <div class="layer-head">
+        <span class="layer-tag">Layer 11 · Reach</span>
+        <h2>Get in touch</h2>
+      </div>
+      <div class="layer-body">
+        <div></div>
+        <div class="content" style="display:grid; gap:1.5rem;">
+          <p style="max-width:58ch;">I'm looking for opportunities in GIS, remote sensing, and conservation. I'd be glad to hear from you.</p>
+          <div class="contact">
+            <div class="card">
+              <span class="label">Email</span>
+              <span class="value" id="c-email">christopher.blackwell270@myci.csuci.edu</span>
+              <button class="copy" type="button" data-copy="c-email">Copy</button>
+            </div>
+            <div class="card">
+              <span class="label">LinkedIn</span>
+              <a class="value" href="https://www.linkedin.com/" target="_blank" rel="noopener"><span class="ph">linkedin.com/in/your-name</span></a>
+            </div>
+            <div class="card">
+              <span class="label">Location</span>
+              <span class="value">Simi Valley, CA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Christopher Blackwell</span>
+    <span>Datum: WGS 84 · Projection: UTM Zone 11N</span>
+  </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
