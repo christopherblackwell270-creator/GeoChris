@@ -80,10 +80,6 @@ points.
 ### Replace your resume
 Save the new one as `resume.pdf`, with exactly that name, and replace the old file.
 
-### Your LinkedIn link
-Search for `linkedin.com/in/your-name`. Replace both the link
-(`href="..."`) and the text shown with your real profile URL.
-
 ## Publishing on GitHub Pages
 
 ### First time
@@ -114,5 +110,4 @@ version for a moment.
 
 ## Before you go public
 - `resume.pdf` includes your phone number. Anyone who visits the site can download it. If you'd rather not share your number, upload a version without it.
-- The LinkedIn link is still a placeholder.
 - Everything in the repository is public, so don't put your transcript or anything private in it.
