@@ -230,3 +230,8 @@ img.thumb.goby { object-fit: cover; }
 .projects.maps .thumb { aspect-ratio: 4 / 3; object-fit: cover; }
 .project > a:first-child { display: block; }
 .content > a.more { font-family: var(--f-mono); font-size: 0.85rem; justify-self: start; }
+
+/* Content: YouTube channel card */
+.channel { max-width: 46rem; }
+.channel .banner { display: block; width: 100%; height: auto; background: #0e191d; }
+.channel .btn { justify-self: start; margin-top: 0.3rem; }

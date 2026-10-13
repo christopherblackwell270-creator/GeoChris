@@ -37,6 +37,7 @@ Search the file (Ctrl+F or Cmd+F) for the id:
 | Work experience | `id="fieldwork"` |
 | Skills | `id="skills"` |
 | Resume | `id="resume"` |
+| Content (YouTube channel) | `id="content"` |
 | Upcoming conferences | `id="conferences"` |
 | Off the map | `id="offmap"` |
 | Contact | `id="contact"` |
