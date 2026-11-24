@@ -83,9 +83,12 @@ In the `id="fieldwork"` section, copy one `<li>` block in the
 points.
 
 ### Replace the drone reel
-1. Shrink the new video first so it loads fast and fits GitHub's upload limit (25 MB in the browser, 100 MB max). About 1080p and 4 Mbps is plenty.
+1. Shrink the new video first so it loads fast and fits GitHub's upload limit (25 MB in the browser, 100 MB max). About 720p and 2 Mbps keeps it around 10 MB.
 2. Save it as `video/drone-reel.mp4`, replacing the old one. Update `images/drone-reel-poster.jpg` too (the still picture shown before it plays).
 3. If the length changes, update the `Drone reel · 0:46` line in the `id="drone"` section.
+
+### Add or swap drone photos
+Drone photos are in `images/drone/`. In the `id="drone"` section, each photo is one `<a>` line inside `class="drone-stills"`. Copy a line, change both file names and the `alt` text.
 
 ### Replace your resume
 Save the new one as `resume.pdf`, with exactly that name, and replace the old file.
