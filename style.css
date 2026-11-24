@@ -265,4 +265,6 @@ img.thumb.goby { object-fit: cover; }
 .drone-sub { font-size: var(--step-1); font-weight: 700; margin-bottom: 0.4rem; }
 .drone-note { font-family: var(--f-mono); font-size: var(--step--1); color: var(--ink-soft); margin-bottom: 1rem; }
 .drone-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 1.25rem; }
+.drone-reel { margin: 0; border: 1px solid var(--rule); border-radius: 3px; overflow: hidden; background: var(--paper-2); max-width: 960px; }
+.drone-reel video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; }
 .drone-slot { aspect-ratio: 16 / 9; border: 1px dashed var(--rule); border-radius: 3px; background: var(--paper-2); display: grid; place-items: center; font-family: var(--f-mono); font-size: 0.78rem; color: var(--ink-soft); letter-spacing: 0.04em; }

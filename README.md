@@ -12,6 +12,7 @@ and GitHub Pages hosts it for free.
 | `style.css` | Colors, fonts and layout. You rarely need to touch it. |
 | `main.js` | The moving parts: the contour map at the top, the dropdown menus and the email Copy button. Leave it alone. |
 | `images/` | Every photo and map picture on the site. Class map pictures are in `images/class/`. |
+| `video/` | Videos on the site. The drone reel is `video/drone-reel.mp4`. |
 | `docs/` | The PDFs the site links to: your paper, poster, report and full-size maps. Class map PDFs are in `docs/class/`. |
 | `resume.pdf` | Your resume. Both Resume buttons open this file. |
 
@@ -80,6 +81,11 @@ once they've passed.
 In the `id="fieldwork"` section, copy one `<li>` block in the
 `class="timeline"` list. Change the dates, title, organization and bullet
 points.
+
+### Replace the drone reel
+1. Shrink the new video first so it loads fast and fits GitHub's upload limit (25 MB in the browser, 100 MB max). About 1080p and 4 Mbps is plenty.
+2. Save it as `video/drone-reel.mp4`, replacing the old one. Update `images/drone-reel-poster.jpg` too (the still picture shown before it plays).
+3. If the length changes, update the `Drone reel · 0:46` line in the `id="drone"` section.
 
 ### Replace your resume
 Save the new one as `resume.pdf`, with exactly that name, and replace the old file.
